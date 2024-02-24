@@ -1,20 +1,20 @@
 -- activate bunnyhop
 local function EnableBunnyhop(ply)
     ply:SetNWBool("BunnyhopEnabled", true)
-    ply:PrintMessage(HUD_PRINTTALK, "Bunnyhop activé !")
+    ply:PrintMessage(HUD_PRINTTALK, "Bunnyhop activated !")
 end
 
 -- deactivate bunnyhop
 local function DisableBunnyhop(ply)
     ply:SetNWBool("BunnyhopEnabled", false)
-    ply:PrintMessage(HUD_PRINTTALK, "Bunnyhop désactivé.")
+    ply:PrintMessage(HUD_PRINTTALK, "Bunnyhop deactivated.")
 end
 
 -- Hook for playerhop
 hook.Add("PlayerButtonDown", "Bunnyhop_PlayerButtonDown", function(ply, button)
     if ply:GetNWBool("BunnyhopEnabled") and button == IN_JUMP and ply:OnGround() then
         local currentVelocity = ply:GetVelocity()
-        local additionalVelocity = Vector(0, 0, 200) -- Ajustez cela selon vos besoins
+        local additionalVelocity = Vector(2, 2, 200)
         ply:SetVelocity(currentVelocity + additionalVelocity)
     end
 end)
