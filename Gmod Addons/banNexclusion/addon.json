@@ -1,0 +1,8 @@
+{
+	"name": "banNexclusion",
+	"version": "1.0",
+	"description": "Addon for banning and excluding players in Garry's Mod using derma panel",
+	"author": "paraleh",
+	"settings": {},
+	"scripts": ["ban_exclusion.lua"]
+  }

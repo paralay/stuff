@@ -1,0 +1,9 @@
+{
+    "name": "CarPropsAddon",
+    "version": "1.0",
+    "description": "Addon for generating car props in Garry's Mod",
+    "author": "paraleh",
+    "settings": {},
+    "scripts": ["autorun/car_props.lua"]
+  }
+  
