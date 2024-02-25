@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #a6a6a6;
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+    color: #fff
+}
