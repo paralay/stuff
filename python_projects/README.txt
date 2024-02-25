@@ -1,0 +1,1 @@
+la majorité de mes scripts en python sont enregistré sur France-IOI ou au lycée, ici ce sont juste quelques exemples
